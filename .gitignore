@@ -1,0 +1,11 @@
+# Nel repo va solo index.html: qualunque altro .html resta fuori,
+# così una copia di lavoro con dei dati dentro non finisce committata per sbaglio.
+*.html
+!index.html
+
+# Backup ed export
+*.json
+*.csv
+
+# macOS
+.DS_Store
